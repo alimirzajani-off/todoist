@@ -1,0 +1,19 @@
+@mixin background($imgpath,$position:0 0,$repeat: no-repeat) 
+    background: 
+        image: url($imgpath)
+        position: $position
+        repeat: $repeat
+    
+.section2
+    .stores
+        margin: 10rem
+        display: flex
+        justify-content: space-around
+        flex-direction: row
+        flex-wrap: wrap
+        .store
+            display: flex
+            flex-direction: column
+            align-items: flex-start
+    // @include background("../../../../assets/back-section.webp")
+    // background-image: url("../../../../assets/back-section.webp")
