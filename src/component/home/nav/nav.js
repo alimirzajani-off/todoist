@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./nav.sass";
 
 const Nav = () => {
@@ -28,7 +29,9 @@ const Nav = () => {
         </div>
         <div className="nav-login">
           <div className="item">
-            <p>log in</p>
+            <Link to="/dashboard">
+              <p>log in</p>
+            </Link>
           </div>
           <div className="item">
             <p>Sign up</p>
