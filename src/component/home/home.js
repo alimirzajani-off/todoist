@@ -1,5 +1,6 @@
 import React from "react";
 import Article from "./article/article";
+import { Footer } from "./footer/footer";
 import Header from "./header/header";
 import Nav from "./nav/nav";
 import Section from "./section/section";
@@ -11,6 +12,7 @@ const Home = () => {
       <Header />
       <Section />
       <Article />
+      <Footer />
     </div>
   );
 };

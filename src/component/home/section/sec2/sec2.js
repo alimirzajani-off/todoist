@@ -8,20 +8,30 @@ const Sec2 = () => {
       <div className="stores">
         <div className="store s-1">
           <div className="s-name">Google Play</div>
-          <div className="s-rate">★★★★★</div>
+          <div className="s-rate">
+            <h5>★★★★★</h5>
+          </div>
           <div className="s-detail">
-            Editor’s Choice 4.7 stars, 187K+ reviews
+            <h5>Editor’s Choice 4.7 stars, 187K+ reviews</h5>
           </div>
         </div>
         <div className="store s-2">
           <div className="s-name">App Store</div>
-          <div className="s-rate">★★★★★</div>
-          <div className="s-detail">Featured app 4.8 stars, 30K+ reviews</div>
+          <div className="s-rate">
+            <h5>★★★★★</h5>
+          </div>
+          <div className="s-detail">
+            <h5>Featured app 4.8 stars, 30K+ reviews</h5>
+          </div>
         </div>
         <div className="store s-3">
           <div className="s-name">The verge</div>
-          <div className="s-rate">9/10</div>
-          <div className="s-detail">The best to-do list app right now</div>
+          <div className="s-rate">
+            <h5>9/10</h5>
+          </div>
+          <div className="s-detail">
+            <h5>The best to-do list app right now</h5>
+          </div>
         </div>
       </div>
     </section>
