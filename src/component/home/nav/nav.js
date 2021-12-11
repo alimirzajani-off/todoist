@@ -34,7 +34,9 @@ const Nav = () => {
             </Link>
           </div>
           <div className="item">
-            <p>Sign up</p>
+            <Link to="/dashboard">
+              <p>Sign up</p>
+            </Link>
           </div>
         </div>
       </div>

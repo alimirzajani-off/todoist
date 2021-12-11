@@ -16,10 +16,10 @@ export const Menu = () => {
         <ul className="pin-items">
           <li className="pin-item-list">
             <div className="pin-item">
-              <div className="pin-item-icon">
+              <div className="pin-item-icon item-icon-1">
                 <ion-icon name="file-tray-outline"></ion-icon>
               </div>
-              <div className="pin-item-text">
+              <div className="pin-item-text item-text-1">
                 <p>inbox</p>
               </div>
             </div>
@@ -27,10 +27,10 @@ export const Menu = () => {
           <li className="pin-item-list">
             <Link to="/dashboard/today">
               <div className="pin-item">
-                <div className="pin-item-icon">
+                <div className="pin-item-icon item-icon-2">
                   <ion-icon name="calendar-number-outline"></ion-icon>
                 </div>
-                <div className="pin-item-text">
+                <div className="pin-item-text item-text-2">
                   <p>Today</p>
                 </div>
               </div>
@@ -39,10 +39,10 @@ export const Menu = () => {
           <li className="pin-item-list">
             <Link to="/dashboard/upcoming">
               <div className="pin-item">
-                <div className="pin-item-icon">
+                <div className="pin-item-icon item-icon-3">
                   <ion-icon name="calendar-number-outline"></ion-icon>
                 </div>
-                <div className="pin-item-text">
+                <div className="pin-item-text item-text-3">
                   <p>Upcoming</p>
                 </div>
               </div>
